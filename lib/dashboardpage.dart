@@ -1,4 +1,3 @@
-
 import 'package:eduvie_movie/controller/dashboard_controller.dart';
 import 'package:eduvie_movie/menu/history.dart';
 import 'package:eduvie_movie/menu/home.dart';
