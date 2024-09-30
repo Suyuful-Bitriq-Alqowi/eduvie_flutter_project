@@ -1,5 +1,9 @@
 
 import 'package:eduvie_movie/controller/dashboard_controller.dart';
+import 'package:eduvie_movie/menu/history.dart';
+import 'package:eduvie_movie/menu/home.dart';
+import 'package:eduvie_movie/menu/profile.dart';
+import 'package:eduvie_movie/menu/upcoming.dart';
 import 'package:eduvie_movie/widget/color.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
