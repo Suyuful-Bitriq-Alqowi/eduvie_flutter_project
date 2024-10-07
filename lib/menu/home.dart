@@ -149,7 +149,8 @@ class HomeMenu extends StatelessWidget {
                 children: [
                   MyButton(
                     buttonText: 'Romance',
-                    width: 120,
+                    width: 110,
+                    fontSize: 15,
                     buttonColor: secondBackground,
                     onPressed: () {
                       // Action here
@@ -158,7 +159,8 @@ class HomeMenu extends StatelessWidget {
                   const SizedBox(width: 10),
                   MyButton(
                     buttonText: 'Action',
-                    width: 120,
+                    width: 110,
+                    fontSize: 15,
                     buttonColor: secondBackground,
                     onPressed: () {
                       // Action here
@@ -167,7 +169,8 @@ class HomeMenu extends StatelessWidget {
                   const SizedBox(width: 10),
                   MyButton(
                     buttonText: 'Comedy',
-                    width: 120,
+                    width: 110,
+                    fontSize: 15,
                     buttonColor: secondBackground,
                     onPressed: () {
                       // Action here

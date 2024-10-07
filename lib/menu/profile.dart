@@ -55,6 +55,7 @@ class ProfileMenu extends StatelessWidget {
             buttonColor: reddColor,
             fontWeight: FontWeight.w700,
             width: 150,
+            fontSize: 15,
             onPressed: () {
               final DashboardController dashboardController = Get.find();
               dashboardController.resetIndex();

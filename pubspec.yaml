@@ -94,6 +94,10 @@ flutter:
     - images/ponyo.png
     - images/fire.png
     - images/bum.png
+    - images/migration.png
+    - images/wonder.png
+    - images/catsunited.png
+    - images/sing2.png
   # https://flutter.dev/assets-and-images/#resolution-aware
 
   # For details regarding adding assets from package dependencies, see
