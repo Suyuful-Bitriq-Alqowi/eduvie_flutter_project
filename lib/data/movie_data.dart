@@ -15,6 +15,11 @@ final List<Map<String, String>> trendingMovies = [
     'genre': 'Comedy, family',
     'imageUrl': 'images/garfil.png'
   },
+  {
+    'title': 'Migration',
+    'genre': 'Adventure, comedy',
+    'imageUrl': 'images/migration.png'
+  },
 ];
 
 final List<Map<String, String>> recommendedMovies = [
@@ -37,5 +42,10 @@ final List<Map<String, String>> recommendedMovies = [
     'title': 'Luck',
     'genre': 'Animation, family',
     'imageUrl': 'images/luck.png'
+  },
+  {
+    'title': 'Wonder',
+    'genre': 'Family, drama',
+    'imageUrl': 'images/wonder.png'
   },
 ];

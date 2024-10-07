@@ -23,4 +23,16 @@ final List<Map<String, String>> historyMovies = [
     'imageUrl': 'images/bum.png',
     'rating': '★ 3.9'
   },
+  {
+    'title': 'Sing 2',
+    'studio': 'Illumination Entertainment',
+    'imageUrl': 'images/sing2.png',
+    'rating': '★ 4.5'
+  },
+  {
+    'title': 'Pet united',
+    'studio': 'Viva Pictures',
+    'imageUrl': 'images/catsunited.png',
+    'rating': '★ 2.6'
+  },
 ];

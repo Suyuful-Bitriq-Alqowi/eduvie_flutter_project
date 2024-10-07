@@ -52,7 +52,6 @@ class UpcomingMenu extends StatelessWidget {
             return Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                // Gambar
                 MyImg(
                   imageUrl: imageUrls[index],
                   borderRadius: 12.0,

@@ -47,6 +47,7 @@ class LoginPage extends StatelessWidget {
             ),
             MyButton(
               buttonText: "Sign in",
+              fontSize: 16,
               buttonColor: reddColor,
               onPressed: () {
                 Get.toNamed('/dashboard');
@@ -58,6 +59,7 @@ class LoginPage extends StatelessWidget {
             MyButton(
               buttonText: "Continue with Google",
               buttonColor: secondBackground,
+              fontSize: 16,
               onPressed: () {},
               imageUrl: 'images/google.png',
               width: 270,

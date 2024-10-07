@@ -9,6 +9,7 @@ class MyButton extends StatelessWidget {
   final VoidCallback onPressed;
   final String? imageUrl;
   final double? width;
+  final double? fontSize; // New parameter for font size
   final FontWeight? fontWeight;
 
   const MyButton({
@@ -18,6 +19,7 @@ class MyButton extends StatelessWidget {
     required this.onPressed,
     this.imageUrl,
     this.width,
+    this.fontSize,
     this.fontWeight,
   }) : super(key: key);
 
@@ -32,7 +34,7 @@ class MyButton extends StatelessWidget {
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(15),
           ),
-          padding: const EdgeInsets.symmetric( vertical: 10),
+          padding: const EdgeInsets.symmetric(vertical: 10),
         ),
         child: Row(
           mainAxisSize: MainAxisSize.min,
@@ -44,9 +46,9 @@ class MyButton extends StatelessWidget {
                 height: 25,
               ),
             if (imageUrl != null) const SizedBox(width: 5),
-            MyTxt( // Replace Text with MyTxt
+            MyTxt(
               text: buttonText,
-              fontSize: 16,
+              fontSize: fontSize ?? 11,
               textColor: whiteColor,
               fontWeight: fontWeight ?? FontWeight.normal,
             ),
